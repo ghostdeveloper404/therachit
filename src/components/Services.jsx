@@ -14,10 +14,10 @@ const Services = () => {
              title="Leadsguru made for Everyone."
              text="Leadsguru unlocks the potential to earn money online by providing the best courses for everyone"
              />
-             <div className='relative m-[1rem] '>
+             <div className='relative m-[1rem] md:py- '>
                    <div className='relative z-1 flex items-center h-[39rem] mb-5 p-8 border 
                     border-neutral-100/10 rounded-3xl overflow-hidden lg:p-20 xl:h-[46rem]'>
-                          <div className='absolute md:right-[15rem] top-0 opacity-20 md:opacity-120  left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto'>
+                          <div className='absolute md:right-[5rem] top-0 opacity-20 md:opacity-120  left-0 w-full h-full pointer-events-none md:w-3/5 xl:w-auto'>
                             <img 
                             src={service1}
                             width={800}
@@ -73,7 +73,7 @@ const Services = () => {
                                </p>
                               
                              </div>
-                             <div className='relative  h-auto bg-neutral-800 rounded-xl overflow-hidden md:h-[25rem]  '>
+                             <div className='relative  h-auto bg-neutral-800 rounded-xl overflow-hidden md:h-[20rem]  '>
                                 <img src={service3}  className='w-full h-fit object-cover ' width={520} height={400} alt='robot' />
                                 <VideoChatMessage />
                                 

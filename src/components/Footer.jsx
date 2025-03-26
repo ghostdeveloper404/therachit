@@ -11,7 +11,7 @@ const Footer = () => {
          <div className=" absolute top-[55.25rem] lg:top-0 left-10 right-10 h-0.25 bg-[#0d1323;] pointer-events-none xl:block" />
           <div className='container flex sm:justify-between
           justify-center  items-center gap-10 max-sm:flex-col '>
-             <p className='caption lg:px-20 pb-2 text-neutral-400 lg:block md:ml-[43.60rem]'>  &copy; {currentYear} Rachit. All rights reserved. </p>
+             <p className='caption lg:px-20 pb-2 text-neutral-400 lg:block '>  &copy; {currentYear} Rachit. All rights reserved. </p>
           </div>
           <ul className='flex gap-3 justify-center flex-wrap'>
               {socials.map((item) => (

@@ -105,6 +105,7 @@ import {
       status: "progress",
       imageUrl: roadmap4,
     },
+    
   ];
   
   export const collabText =
@@ -238,11 +239,24 @@ import {
       iconUrl: benefitIcon1,
       imageUrl: benefitImage2,
     },
+    {
+      id: "3",
+      title: "Priyanka Sharma",
+      text: "I used to struggle a lot in communicating with people. But LeadsGuru helped me to improve my communication skills and become efficient in having prolonged discussions with people.",
+      backgroundUrl: "./src/assets/benefits/card-3.svg",
+      iconUrl: benefitIcon1,
+      imageUrl: benefitImage2,
+    },
+    {
+      id: "4",
+      title: "Deepak Saini",
+      text: "This platform has helped me to overcome my fears and make the most out of given opportunities. If you wish to upskill yourself and acquire knowledge from top mentors then this is just the right platform for you.",
+      backgroundUrl: "./src/assets/benefits/card-3.svg",
+      iconUrl: benefitIcon1,
+      imageUrl: benefitImage2,
+    },
     
    
-    
-    
-    
   ];
   
   export const socials = [

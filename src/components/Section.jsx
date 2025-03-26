@@ -15,7 +15,7 @@ const Section = ({
        ${
         customPaddings || 
         `py-10 lg:py-16
-     xl:py-10 xl:px-60   ${crosses ? 'lg:py-32 xl:py-40':''}`} 
+     xl:py-10 xl:px-30   ${crosses ? 'lg:py-32 xl:py-40':''}`} 
      ${className || ''}`}
      >
     {children}

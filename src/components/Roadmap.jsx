@@ -52,7 +52,7 @@ const Roadmap = () => {
                                  
                              </div>
 
-                              <div  className={`mb-10 -my-10 -mx-15 
+                              <div  className={`mb-10 -my-10 mx-auto 
                                     ${(index === 1 || index === 3) ? 'md:my-[1rem] ' : ''
                                   }`}>
                                  <img src={item.imageUrl}
@@ -64,14 +64,11 @@ const Roadmap = () => {
                                    />
                               </div>
                                <h4  className='h4 text-4xl mb-4'> {item.title} </h4>
-                               <p  className='body-2 text-2xl text-neutral-400 '> {item.text} </p>
+                               <p  className='body-2 text-2xl leading-[112%]  text-neutral-400 '> {item.text} </p>
                           </div>
                         </div>
                         </div>
-                        
-                      
-                      
-                      
+ 
                      );
                    })}
              </div>

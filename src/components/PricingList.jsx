@@ -33,7 +33,7 @@ const PricingList = () => {
                { item.features.map((feature,index) => (
                  <li   className="flex items-start py-5 border-t border-neutral-600" key={index}>
                       <img   src={check} width={24} height={24} alt="check" />
-                     <p  className="body-2 ml-4">{feature}</p>
+                     <p  className="body-2 leading-[120%] ml-4">{feature}</p>
                  </li>
                ))}
               </ul>

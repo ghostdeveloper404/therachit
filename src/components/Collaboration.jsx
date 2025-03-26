@@ -17,7 +17,7 @@ const Collaboration = () => {
   return (
     <Section crosses>
       <div className=' container mx-auto px-2.5 lg:flex'>
-        <div className='max-w-[25rem]   '>
+        <div className='max-w-[25rem] md:ml-2  '>
           <h2 className='h2 mb-4 text-4xl md:mb-8'>How LeadsGuru Works</h2>
           <ul className='max-w-[22rem] mb-10 md:mb-14'>
             {collabContent.map((item) => (
@@ -36,7 +36,7 @@ const Collaboration = () => {
           </ul>
           <Button href="https://wa.me/+918429384431?text=Hello%20Rachit%20i%20want%20">Try it now</Button>
         </div>
-        <div className="lg:ml-auto xl:[38rem] mx-30rem">
+        <div className=" xl:[38rem] lg:ml-auto ">
           <p className='body-2 mb-8 
              text-neutral-400 md:mb-16 
              lg:mb-32 lg:w-[22rem] text-xl lg:mx-auto '> {collabText} </p>
@@ -51,7 +51,7 @@ const Collaboration = () => {
             <ul >
               {collabApps.map((app, index) => (
                 <li key={app.id} className={`absolute top-0 left-1/2 h-1/2 -ml-[1.6rem] origin-bottom rotate-${index * 90}`} >
-                  <div className={`relative -top-[1.6rem] flex w-[3.2rem] bg-neutral-700 border
+                  <div className={`relative -top-[1.6rem] md:flex-row flex-col flex w-[3.2rem]  bg-neutral-700 border
                      border-neutral-100/15 rounded-xl -rotate-${index * 90}`}  onMouseEnter={() => setHoverIndex(index)} onMouseLeave={() => setHoverIndex(null)}  >
                     <img className='m-auto' height={app.height} width={app.width} src={app.icon} alt={app.title} />
                     {hoverIndex === index && ( 
@@ -66,7 +66,6 @@ const Collaboration = () => {
 
             </ul>
             <LeftCurve />
-            <RightCurve />
           </div>
         </div>
       </div>

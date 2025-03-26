@@ -18,12 +18,12 @@ const Benefits = () => {
            <div className='flex px-5  justify-center flex-wrap gap-10 mb-10'>
               { benefits.map((item) => (
                  <div key={item.id}
-                  className='block relative p-0.5 
-                  md:max-w-[24rem] bg-no-reapeat bg-[length:100%_1005]'
+                  className='block relative p-0.5 md:bg-no-repeat
+                  md:max-w-[24rem] bg-no-repeat bg-[length:100%_1005]'
                   style={{backgroundImage: `url(${item.backgroundUrl})`}}>
                        <div className='relative z-2 flex flex-col min-h-[22rem] p-[1.95rem] pointer-events-none'>
                           <h5 className="h2 text-4xl mb-5">{item.title}</h5>
-                         <p className='body-2 text-xl mb-6 text-[#ADA8C3]'>{item.text}</p> 
+                         <p className='body-2 text-xl  mb-6 text-[#ADA8C3]'>{item.text}</p> 
                          <div className='flex items-center mt-auto '>
                               <img src={item.iconUrl} alt={item.title} width={48} height={48}/>
                               <p className='ml-auto  font-code text-xs font-bold text-neutral-100
