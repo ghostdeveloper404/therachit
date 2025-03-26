@@ -1,0 +1,22 @@
+<svg viewBox="0 0 560 308" xmlns="http://www.w3.org/2000/svg" style="max-width: 100%; height: 308px;">
+    <style>
+        .mytextnew17421344844999546 {
+            text-align: center;
+            fill: #fff; /* Changed text color to white */
+            font-size: 64px; /* Increased font size */
+            font-weight: bold; /* Made font bolder */
+        }
+        .mytextnew217421344844999546 {
+            text-align: center;
+            fill: #fff; /* Changed text color to white */
+        }
+    </style>
+    <text x="180" y="180" font-family="Arial" font-size="120" fill="purple">R</text>
+    <g id="SvgjsG1454" featurekey="nameFeature-0">
+        <text x="273.375" y="50%" dominant-baseline="middle" text-anchor="left" class="mytextnew17421344844999546" style="font-size:64px; fill:#fff; font-weight:bold;">
+            achit
+        </text>    
+        <text x="340" y="184" dominant-baseline="middle" text-anchor="left" class="mytextnew217421344844999546" style="font-size:48px; fill:#fff;">
+        </text>    
+    </g>
+</svg>
