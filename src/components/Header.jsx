@@ -38,7 +38,7 @@ const Header = () => {
      lg:bg-gray-950/90   lg:backdrop-blur-sm ${openNavigation ? 'bg-natural-800':'bg-neutral-800/90 backdrop-blur-sm'}`}>
         <div className="flex items-center px-5 lg:px-7.5
         xl:px-10 max-lg:py-4">
-            <a className="block w-[12rem] xl:mr-8" href="#hero">
+            <a className="block md:w-[12rem] w-[5rem] xl:mr-8" href="#hero">
                 <img src={brainwave} width={190} height={40}
                 alt="Brainwave"/>
             </a>

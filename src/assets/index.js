@@ -46,7 +46,7 @@ import stars from "./pricing/stars.svg";
 import coins from "./roadmap/coins.png";
 import done from "./roadmap/done.svg";
 import hero from "./roadmap/hero.png";
-import roadmap1 from "./roadmap/me.jpg";
+import roadmap1 from "./roadmap/Me.jpg";
 import roadmap2 from "./roadmap/Earning2.png";
 import roadmap3 from "./roadmap/skill.png";
 import roadmap4 from "./roadmap/travel.png";
@@ -68,6 +68,7 @@ import benefitIcon2 from "./benefits/icon-2.svg";
 import benefitIcon3 from "./benefits/icon-3.svg";
 import benefitIcon4 from "./benefits/icon-4.svg";
 import benefitImage2 from "./benefits/image-2.png";
+
 
 import discordBlack from "./socials/discord2.png";
 import facebook from "./socials/facebook.svg";
@@ -128,6 +129,7 @@ export {
   notification2,
   notification3,
   notification4,
+ 
   benefitCard1,
   benefitCard2,
   benefitCard3,

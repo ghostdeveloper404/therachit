@@ -1,6 +1,7 @@
 import {
-    benefitIcon1,
-    benefitImage2,
+    
+    
+    
     chromecast,
     disc02,
     discord,
@@ -26,6 +27,7 @@ import {
     telegram,
     twitter,
     yourlogo,
+    
   } from "../assets";
   
   export const navigation = [
@@ -218,42 +220,37 @@ import {
       id: "0",
       title: "Arun Shaoo",
       text: "Rachit helped me to become the best version of myself. I believe leadsguru is one the best ed-tech platforms which gives you the freedom to learn at your own place.",
-      backgroundUrl: "./src/assets/benefits/card-1.svg",
-      iconUrl: benefitIcon1,
-      imageUrl: benefitImage2,
+      backgroundUrl: "src/assets/benefits/card-1.svg",
+     
     },
     {
       id: "1",
       title: "Ananya Sharma",
       text: "I embarked on my professional journey a few months ago. Rachit helped me to remain updated with recent trends and advancements. And I think, now there is no looking back.",
-      backgroundUrl: "./src/assets/benefits/card-2.svg",
-      iconUrl: benefitIcon1,
-      imageUrl: benefitImage2,
+      backgroundUrl: "src/assets/benefits/card-2.svg",
+      
       light: true,
     },
     {
       id: "2",
       title: "Ravi Pandey",
       text: "If you are a newbie or an expert in the professional realm. With LeadsGuru I am able to acquire knowledge about the recent trends and skills which are needed in today s fast-paced era.",
-      backgroundUrl: "./src/assets/benefits/card-3.svg",
-      iconUrl: benefitIcon1,
-      imageUrl: benefitImage2,
+      backgroundUrl: "src/assets/benefits/card-3.svg",
+      
     },
     {
       id: "3",
       title: "Priyanka Sharma",
       text: "I used to struggle a lot in communicating with people. But LeadsGuru helped me to improve my communication skills and become efficient in having prolonged discussions with people.",
-      backgroundUrl: "./src/assets/benefits/card-3.svg",
-      iconUrl: benefitIcon1,
-      imageUrl: benefitImage2,
+      backgroundUrl: "src/assets/benefits/card-4.svg",
+      
     },
     {
       id: "4",
       title: "Deepak Saini",
       text: "This platform has helped me to overcome my fears and make the most out of given opportunities. If you wish to upskill yourself and acquire knowledge from top mentors then this is just the right platform for you.",
-      backgroundUrl: "./src/assets/benefits/card-3.svg",
-      iconUrl: benefitIcon1,
-      imageUrl: benefitImage2,
+      backgroundUrl: "src/assets/benefits/card-5.svg",
+     
     },
     
    
